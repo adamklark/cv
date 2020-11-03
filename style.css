@@ -1,0 +1,101 @@
+/*+POLICE*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/*GENERAL*/
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container
+{
+    width: 100%;
+    height: 120vh;
+    background: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-around;
+    align-items: center;
+}
+
+.item-1
+{
+    height: 120vh;
+    width: 275px;
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    align-items: center;
+    background: black;
+}
+
+.item-2
+{
+    height: 120vh;
+    width: 311px;
+    background: #c4c4c4;
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    align-items: center;
+}
+
+img
+{
+    width: 170px;
+    height: 150px;
+    margin-top: 17px;
+    border: 1px solid #000000;
+}
+
+ul li
+{
+    list-style: none;
+    text-align: left;
+    font-size: 14px;
+    color: white;
+}
+
+h1 
+{
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 18px;
+    margin-top: 17px;
+    text-transform: uppercase;
+    text-align: left;
+}
+.item-1 h1
+{
+    color: white;
+}  
+
+.element
+{
+    height: 120vh;
+    width: 170px;
+}
+
+.element-2
+{
+    height: 120vh;
+    width: 210px;
+}
+
+.element-2 li
+{
+    color: black;
+}
+
+.txt
+{
+    font-weight: bold;
+}
+
+.saut
+{
+    margin-bottom: 14px;
+}
